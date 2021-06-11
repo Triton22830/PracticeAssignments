@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tab Label</title>
+	</head>
+	
+	<body>
+		<h1>This is a Heading</h1>
+		<p>This is a paragraph. A paragraph has three sentences sometimes.</p>
+		<div id="ContentArea" style="color: red;">
+		This is text displayed in red
+		</div>
+		<hr />
+		
+		<h2>Formatting Tags</h2>
+		<p><b>Bold Tag</b></p>
+			<!--This starts a new paragraph because of the /p. The rest areon the same line because I didn't specify p or /p I think.-->
+		<p><strong>Strong Tag</strong>
+		<i>Italics tag</i>
+		<em>Emphasis tag</em>
+		<sup>Superscript</sup>
+		<sub>Subscript</sub>
+		<ins>Inserted</ins>
+		<del>Deleted</del>
+		<mark>Marked</mark>
+		<blockquote>Lorem ipsum dolor sit amet, magna sed quia, elit non
+		ut corrupti, aenean commodo elit, tincidunt platea
+		purus quis at dolor a, felis nunc massa pede cras
+		quis. Lacinia fusce, praesent at pede phasellus, dui
+		etiam in luctus.
+		</blockquote>
+		<code>Code Text</code>
+			<!-- This is a comment that should not appear on the page-->
+		</p>
+		
+	<div>
+		<h2>Demonstrating a span element
+		</h2>
+		<p>
+			In this paragraph, our <span style="background-color: yellow">span element</span> will highlight the text it contains in yellow
+		</p>
+	</div>
+	
+	<div>
+		<h3>Images in HTML</h3>
+		<p>An HTML page is plain without images.</P>
+		<img src="Images/Triton.jpg" alt="Photo of my dog with me." style="border: thick black solid; width: 60%;"/>
+		<p> 
+		<img src="https://cdn.pixabay.com/photo/2016/11/18/22/58/stars-1837306_1280.jpg" alt= "image of the stars" style="width: 75%;"/>
+		</p>
+	</div>
+	
+	<div>
+		<h2>HTML Lists in Action</h2>
+		<h3>Ordered Lists</h3>
+		<ol type="1">
+			<li>First Item</li>
+			<li>Second Item</li>
+			<li>Third Item</li>
+		</ol>
+		<h3>Unordered Lists</h3>
+		<ul list-style-type="circle"
+			<li>Milk</li>
+			<li>Eggs</li>
+			<li>Yogurt</li>
+		</ul>
+		<h3>Definition Lists</h3>
+		<dl>
+			<dt>One</dt>
+			<dd>The first positive number in our counting system.</dd>
+			<dt>Two</dt>
+			<dd>The first whole number greater in value than one.</dd>
+			<dt>Three</dt> <dd>The next whole number in increasing value after two.</dd>
+		</dl>
+	</div>
+	
+	<div>
+		<h2>Tables in HTML</h2>
+		<table border="1" width="90%">
+			<caption>Contact Information</caption>
+			<tr bgcolor="palegreen">
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Phone</th>
+			</tr>
+			<tr>
+				<td>John</td>
+				<td>Doe</td>
+				<td>555-555-1234</td>
+			</tr>
+			<tr>
+				<td>Sally</td>
+				<td>Smith</td>
+				<td>555-555-1212</td>
+			</tr>
+		</table>
+	<!-- cells to span multiple columns or rows get the rowspan="2" or colspan="2" commands. -->
+	</div>
+		
+	<div>
+		<h2>Forms Example</h2>
+	<form action="fakePage.html" method="POST">
+            Text Input: <input type="text" name="myTextInput" /><br />
+            Radio Buttons:<br />
+            <input type="radio" name="answer" value="YES" checked />Yes<br />
+            <input type="radio" name="answer" value="NO" />No<br />
+            <input type="radio" name="answer" value="MAYBE" />Maybe<br />
+            Password Input: <input type="password" name="userPassword" /><br />
+            <input type="checkbox" name="myChoices" value="Soup" checked/>Soup<br />
+            <input type="checkbox" name="myChoices" value="Salad" checked/>Salad<br />
+            <input type="checkbox" name="myChoices" value="Fries" checked/>Fries<br />
+            <input type="checkbox" name="myChoices" value="Dessert" checked/>Dessert<br />
+            <select name="phones">
+                <option value="iPhone6">Mac OS</option>
+                <option value="GalaxyS6">Windows</option>
+                <option value="Nexus5">Linux</option>
+            </select><br />
+            <textarea name="briefDescription"></textarea><br />
+            <input type="submit" /><input type="reset" /><br />
+	</form>
+	
+	</body>
+</html>
